@@ -18,27 +18,31 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  title = "Data Engineering Intern"
+  company = "Capital One"
+  company_url = "https://campus.capitalone.com/technology-program?id=internship"
+  location = "Richmond, VA"
+  date_start = "2019-06-03"
+  date_end = "2019-08-09"
+  description = """Created an API for real-time streaming data that:
+
+  * removes the development of duplicate data consumption code
+  * makes it easier to create a Kafka consumer at Capital One
+  * speeds up developer velocity across Capital One’s engineering teams
+  * utilizes Spark, Kafka, and Amazon Web Services to perform ETL processes for data analysis efforts
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Web Assembly Intern"
+  company = "Mozilla"
+  company_url = "https://github.com/CraneStation"
+  location = "San Francisco, CA"
+  date_start = "2018-05-21"
+  date_end = "2018-08-10"
+  description = """Worked on Cranelift, a WebAssembly code generator, where I:
 
+  * began the implementation of the reference type for CraneLift
+  * researched and created live value retrieval instructions for use by Firefox's Javascript Engine
+  * coded primarily in Rust, C++, and Python
+  """
 +++
